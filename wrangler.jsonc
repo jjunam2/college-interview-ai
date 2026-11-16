@@ -14,7 +14,7 @@
     {
       "binding": "DB",
       "database_name": "mock-interview-db",
-      "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+      "database_id": "06744c6a-dbf7-45db-b755-5516abfabf7e",
       "migrations_dir": "migrations"
     }
   ]
