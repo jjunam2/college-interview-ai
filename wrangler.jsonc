@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "mock-interview",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "dist/client",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  // Cloudflare 대시보드 > D1에서 데이터베이스를 만든 뒤 ID를 여기에 붙여 넣으세요
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "mock-interview-db",
+      "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+      "migrations_dir": "migrations"
+    }
+  ]
+}

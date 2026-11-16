@@ -1,0 +1,3 @@
+ENTRY_CODE=change-me
+BOOTSTRAP_ADMIN_EMAIL=change-me
+SESSION_SECRET=change-me-at-least-32-characters-long

@@ -1,0 +1,6 @@
+{
+  "name": "덕신고 2027 대입 모의면접",
+  "description": "회차별 대입 모의면접을 운영하고 면접위원 평가를 실시간으로 취합해 학생별 결과지를 제작하는 교내 모의면접 평가 시스템",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
